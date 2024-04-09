@@ -1,5 +1,11 @@
 import React, { useState } from "react";
-import { FaBars, FaCircleXmark , FaGithub, FaLinkedin } from "react-icons/fa6";
+import {
+  FaUser,
+  FaBars,
+  FaCircleXmark,
+  FaGithub,
+  FaLinkedin,
+} from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -10,9 +16,11 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div className="px-4">
-        <span class="material-symbols-outlined">person_check</span>
+    <div className="fixed w-full h-16 flex justify-between md:justify-center items-center px-4 bg-black bg-opacity-50 backdrop-blur-md text-gray-300">
+      <div className="text-lg px-4 cursor-pointer">
+        <Link to="home" smooth={true} duration={500}>
+          <FaUser />
+        </Link>
       </div>
 
       {/* menu */}
@@ -48,7 +56,7 @@ const Navbar = () => {
 
       {/* hamburger menu */}
       <div onClick={handleClick} className="md:hidden z-10 text-2xl">
-        {!nav ? <FaBars /> : <FaCircleXmark  />}
+        {!nav ? <FaBars /> : <FaCircleXmark />}
       </div>
 
       {/* mobile menu */}
@@ -57,7 +65,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-black bg-opacity-90 backdrop-blur-md flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">
@@ -88,7 +96,7 @@ const Navbar = () => {
       </ul>
 
       {/* socials */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+      {/* <div className="hidden lg:flex fixed flex-col top-[50%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500">
             <a
@@ -123,7 +131,7 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };
