@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import { FaBars, FaXmark, FaGithub, FaLinkedin } from "react-icons/fa6";
+import { FaBars, FaCircleXmark , FaGithub, FaLinkedin } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/logo1.png";
 
 import { Link } from "react-scroll";
 
@@ -12,12 +11,12 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div>
-        <img src={Logo} alt="Logo Image" style={{ width: "50px" }} />
+      <div className="px-4">
+        <span class="material-symbols-outlined">person_check</span>
       </div>
 
       {/* menu */}
-      <div>
+      <div className="text-lg">
         <ul className="hidden md:flex">
           <li>
             <Link to="home" smooth={true} duration={500}>
@@ -47,47 +46,46 @@ const Navbar = () => {
         </ul>
       </div>
 
-      {/* hamburger */}
-      <div onClick={handleClick} className="md:hidden z-10">
-        {!nav ? <FaBars /> : <FaXmark />}
+      {/* hamburger menu */}
+      <div onClick={handleClick} className="md:hidden z-10 text-2xl">
+        {!nav ? <FaBars /> : <FaCircleXmark  />}
       </div>
 
       {/* mobile menu */}
-      <div
+
+      <ul
         className={
           !nav
             ? "hidden"
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <ul>
-          <li className="py-6 text-4xl">
-            <Link onClick={handleClick} to="home" smooth={true} duration={500}>
-              Home
-            </Link>
-          </li>
-          <li className="py-6 text-4xl">
-            <Link onClick={handleClick} to="about" smooth={true} duration={500}>
-              About
-            </Link>
-          </li>
-          <li className="py-6 text-4xl">
-            <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-              Skills
-            </Link>
-          </li>
-          <li className="py-6 text-4xl">
-            <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-              Work
-            </Link>
-          </li>
-          <li className="py-6 text-4xl">
-            <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-              Contact
-            </Link>
-          </li>
-        </ul>
-      </div>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
+      </ul>
 
       {/* socials */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
