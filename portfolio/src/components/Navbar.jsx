@@ -25,8 +25,8 @@ const Navbar = () => {
 
       {/* menu */}
       <div className="text-base">
-        <ul className="hidden md:flex items-center justify-evenly px-4 gap-4">
-          <li>
+        <ul className="hidden md:flex items-center justify-evenly px-4 gap-6">
+          <li className="hover:text-white hover:scale-[120%] duration-300">
             <Link to="home" smooth={true} duration={500}>
               <FaUser />
             </Link>

@@ -1,23 +1,26 @@
 import React from "react";
 
+// tech stack: html, css, javascript, typescript, react, tailwind, nodejs, expressjs, mongodb, 
+// tools: aws, github, postman, firebase
+
 const About = () => {
   return (
-    <div name="about" className="w-full h-[48rem] bg-neutral-100 text-neutral-950">
+    <div name="about" className="w-full h-[48rem] bg-gradient-to-t from-neutral-200 to-neutral-100 text-neutral-950">
       <div className="flex flex-col justify-center items-center w-full h-full">
         {/* container */}
-        <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right pb-8">
-            <p className="text-4xl font-bold inline border-b-4 border-pink-600">
+        <div className="max-w-[1000px] w-full px-2">
+          <div className="text-center py-4">
+            <p className="text-4xl font-bold">
               About
             </p>
           </div>
           <div></div>
         </div>
-        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right text-4xl font-bold">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div className="max-w-[1000px] w-full px-2">
+          <div className="text-center text-4xl font-bold">
+            <p>Lorem ipsum dolor sit amet.</p>
           </div>
-          <div>
+          <div className="text-center">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
               eos quasi placeat error repellat vero repudiandae pariatur! Ullam
