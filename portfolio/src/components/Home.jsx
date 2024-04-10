@@ -1,5 +1,5 @@
 import React from "react";
-import { HiArrowNarrowRight } from "react-icons/hi";
+
 import {
   FaAnglesDown,
   FaLinkedin,
@@ -21,7 +21,7 @@ const Home = () => {
           Yogesh Chandra Singh Samant
         </h1>
         <h2 className="text-4xl sm:text-6xl font-medium text-neutral-400 py-2">
-          I'm a software developer
+          I'm a full-stack developer
         </h2>
         <p className="text-neutral-100 py-2 font-normal">
           Welcome to my portfolio website!
@@ -49,7 +49,7 @@ const Home = () => {
         </div>
         <div className="flex items-center justify-center py-2">
           <Link to="about" smooth={true} duration={500}>
-            <button className="group flex gap-2 border-2 px-6 py-3 my-2 items-center rounded-full bg-gradient-to-br hover:from-pink-400 hover:via-violet-700 hover:to-violet-900 from-10% via-50% text-neutral-100 hover:text-fuchsia-100 border-neutral-100 hover:border-neutral-950">
+            <button className="group flex gap-2 border-2 px-6 py-3 my-2 items-center rounded-full bg-gradient-to-br hover:from-pink-600 hover:via-fuchsia-800 hover:to-violet-900 text-neutral-100 hover:text-fuchsia-100 border-neutral-100 hover:border-neutral-950">
               Learn more
               <span className="group-hover:translate-y-1 duration-300">
                 <FaAnglesDown />
