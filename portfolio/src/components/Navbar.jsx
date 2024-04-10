@@ -16,7 +16,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-12 flex justify-between md:justify-center items-center px-4 bg-black bg-opacity-50 backdrop-blur-md text-gray-300">
+    <div className="fixed w-full h-12 flex justify-between md:justify-center items-center px-4 bg-neutral-800 bg-opacity-50 backdrop-blur-md text-neutral-100">
       <div className="md:hidden text-2xl px-4 cursor-pointer">
         <Link to="home" smooth={true} duration={500}>
           <FaUser />
@@ -24,7 +24,7 @@ const Navbar = () => {
       </div>
 
       {/* menu */}
-      <div className="text-lg">
+      <div className="text-base">
         <ul className="hidden md:flex items-center justify-evenly px-4 gap-4">
           <li>
             <Link to="home" smooth={true} duration={500}>
@@ -61,7 +61,7 @@ const Navbar = () => {
 
       {/* hamburger menu */}
 
-      <div onClick={handleClick} className="md:hidden z-10 text-2xl px-4">
+      <div onClick={handleClick} className="md:hidden z-10 text-2xl px-4 cursor-pointer">
         {!nav ? <FaBars /> : <FaCircleXmark />}
       </div>
 
@@ -71,7 +71,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-black bg-opacity-90 backdrop-blur-md flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-neutral-800 bg-opacity-90 backdrop-blur-md flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">
