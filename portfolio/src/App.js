@@ -5,11 +5,13 @@ import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
+import Connect from "./components/Connect";
 
 function App() {
   return (
-    <div>
+    <div className="bg-neutral-950">
       <Navbar />
+      <Connect />
       <Home />
       <About />
       <Skills />

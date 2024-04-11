@@ -16,8 +16,8 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-12 flex justify-between md:justify-center items-center px-4 bg-neutral-800 bg-opacity-50 backdrop-blur-md text-neutral-100">
-      <div className="md:hidden text-2xl px-4 cursor-pointer">
+    <div className="fixed w-full h-12 flex justify-between md:justify-center items-center px-4 bg-neutral-800 bg-opacity-50 backdrop-blur-md text-neutral-100 z-30">
+      <div className="md:hidden text-2xl px-4 cursor-pointer z-30">
         <Link to="home" smooth={true} duration={500}>
           <FaUser />
         </Link>
