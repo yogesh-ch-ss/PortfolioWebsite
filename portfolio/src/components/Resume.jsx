@@ -9,11 +9,11 @@ const Resume = () => {
           <div className="px-4 py-4 text-[7rem]">
             <FaFileLines />
           </div>
-          <div className="text-3xl font-semibold">
+          <div className="text-3xl font-semibold text-center">
             <h1>Hire Me!</h1>
           </div>
           <div className="text-md">
-            <p>Click to view and download my resume.</p>
+            <p className="text-center">Click to view and download my resume.</p>
           </div>
         </div>
       </div>
