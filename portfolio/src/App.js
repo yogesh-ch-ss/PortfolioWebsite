@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="bg-neutral-950">
       <Navbar />
-      <Connect />
       <Home />
+      <Connect />
       <About />
       <Skills />
       <Work />

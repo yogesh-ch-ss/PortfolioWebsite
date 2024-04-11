@@ -12,7 +12,8 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="w-full h-[48rem] bg-gradient-to-t from-neutral-950 via-gray-900 to-slate-900 text-center mb-[.8rem]"
+      // className="w-full h-[48rem] bg-gradient-to-t from-neutral-950 via-gray-900 to-slate-900 text-center"
+      className="w-full h-[48rem] bg-neutral-950 text-center"
     >
       {/* container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
@@ -23,30 +24,9 @@ const Home = () => {
         <h2 className="text-4xl sm:text-6xl font-medium text-neutral-400 py-2">
           I'm a full-stack developer
         </h2>
-        <p className="text-neutral-100 py-2 font-normal">
+        {/* <p className="text-neutral-100 py-2 font-normal">
           Welcome to my portfolio website!
-        </p>
-        <div>
-          <ul className="flex items-center justify-center gap-8 py-2 text-neutral-100 text-2xl">
-            <li className="hover:scale-[115%] duration-300">
-              <div>
-                <a href="#">
-                  <FaEnvelope />
-                </a>
-              </div>
-            </li>
-            <li className="hover:scale-[115%] duration-300">
-              <a href="#">
-                <FaGithub />
-              </a>
-            </li>
-            <li className="hover:scale-[115%] duration-300">
-              <a href="#">
-                <FaLinkedin />
-              </a>
-            </li>
-          </ul>
-        </div>
+        </p> */}
         <div className="flex items-center justify-center py-2">
           <Link to="about" smooth={true} duration={500}>
             <button className="group flex gap-2 border-2 px-6 py-3 my-2 items-center rounded-full bg-gradient-to-br hover:from-pink-600 hover:via-fuchsia-800 hover:to-violet-900 text-neutral-100 hover:text-fuchsia-100 border-neutral-100 hover:border-neutral-950">
