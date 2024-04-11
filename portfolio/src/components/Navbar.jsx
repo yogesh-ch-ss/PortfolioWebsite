@@ -1,13 +1,5 @@
 import React, { useState } from "react";
-import {
-  FaUser,
-  FaBars,
-  FaCircleXmark,
-  FaGithub,
-  FaLinkedin,
-} from "react-icons/fa6";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaUser, FaBars, FaCircleXmark } from "react-icons/fa6";
 
 import { Link } from "react-scroll";
 
@@ -26,7 +18,7 @@ const Navbar = () => {
       {/* menu */}
       <div className="text-base">
         <ul className="hidden md:flex items-center justify-evenly px-4 gap-6">
-          <li className="hover:text-white hover:scale-[120%] duration-300">
+          <li className="hover:text-white hover:scale-[120%] duration-200">
             <Link to="home" smooth={true} duration={500}>
               <FaUser />
             </Link>
@@ -66,7 +58,10 @@ const Navbar = () => {
 
       {/* hamburger menu */}
 
-      <div onClick={handleClick} className="md:hidden z-10 text-2xl px-4 cursor-pointer">
+      <div
+        onClick={handleClick}
+        className="md:hidden z-10 text-2xl px-4 cursor-pointer"
+      >
         {!nav ? <FaBars /> : <FaCircleXmark />}
       </div>
 

@@ -1,11 +1,6 @@
 import React from "react";
 
-import {
-  FaAnglesDown,
-  FaLinkedin,
-  FaGithub,
-  FaEnvelope,
-} from "react-icons/fa6";
+import { FaAnglesDown } from "react-icons/fa6";
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -13,7 +8,7 @@ const Home = () => {
     <div
       name="home"
       // className="w-full h-[48rem] bg-gradient-to-t from-neutral-950 via-gray-900 to-slate-900 text-center"
-      className="w-full h-[48rem] bg-neutral-950 text-center"
+      className="w-full h-[40rem] bg-neutral-950 text-center"
     >
       {/* container */}
       <div className="max-w-[72rem] mx-auto px-8 flex flex-col justify-center h-full">
@@ -29,7 +24,7 @@ const Home = () => {
         </p> */}
         <div className="flex items-center justify-center py-2">
           <Link to="about" smooth={true} duration={500}>
-            <button className="group flex gap-2 border-2 px-6 py-3 my-2 items-center rounded-full bg-gradient-to-br hover:from-pink-600 hover:via-fuchsia-800 hover:to-violet-900 text-neutral-100 hover:text-fuchsia-100 from-10% via-50% border-neutral-100 hover:border-neutral-950">
+            <button className="group flex gap-2 border-2 px-4 py-2 my-2 items-center rounded-full bg-gradient-to-br hover:from-pink-600 hover:via-fuchsia-800 hover:to-violet-900 text-neutral-100 hover:text-fuchsia-100 from-10% via-50% border-neutral-100 hover:border-neutral-950">
               Learn more
               <span className="group-hover:translate-y-1 duration-300">
                 <FaAnglesDown />
