@@ -19,13 +19,6 @@ const Skills = () => {
 
       {/* grid */}
       <div className="w-full h-full grid grid-cols-1 sm:grid-cols-3 max-w-[60rem]">
-        {/* <div className="grid-cols-subgrid col-span-3 px-6">
-          <h1 className="text-4xl font-bold">Technologies</h1>
-        </div>
-        <div className="grid-cols-subgrid col-span-3 px-6 py-4">
-          <p>These are the technologies that I have worked with.</p>
-        </div> */}
-
         {/* frontend */}
         <div className="px-6 py-8 h-auto min-w-[15rem]">
           <div className="flex flex-col float-left">
@@ -97,10 +90,10 @@ const Skills = () => {
                   <p>Python</p>
                 </div>
                 <div className="py-1">
-                  <p>Amazon Web Services</p>
+                  <p>GitHub</p>
                 </div>
                 <div className="py-1">
-                  <p>GitHub</p>
+                  <p>Amazon Web Services</p>
                 </div>
                 <div className="py-1">
                   <p>Postman APIs</p>
