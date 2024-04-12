@@ -1,0 +1,3 @@
+all headings - text-4xl
+max width - max-w-[60rem]
+section (heading) - py-24

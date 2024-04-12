@@ -11,12 +11,12 @@ const Home = () => {
       className="w-full h-[40rem] bg-neutral-950 text-center"
     >
       {/* container */}
-      <div className="max-w-[72rem] mx-auto px-8 flex flex-col justify-center h-full">
+      <div className="max-w-[60rem] mx-auto px-8 flex flex-col justify-center h-full">
         {/* <p className="text-neutral-400 py-2 font-medium">Hi, my name is </p> */}
-        <h1 className="text-4xl md:text-7xl font-semibold text-neutral-100 py-2 bg-clip-text text-transparent bg-gradient-to-br from-pink-600 via-fuchsia-800 to-violet-900 from-10% via-50%">
+        <h1 className="text-4xl md:text-6xl font-semibold text-neutral-100 py-2 bg-clip-text text-transparent bg-gradient-to-br from-pink-600 via-fuchsia-800 to-violet-900 from-10% via-50%">
           Yogesh Chandra Singh Samant
         </h1>
-        <h2 className="text-2xl md:text-5xl font-medium text-neutral-100 py-2">
+        <h2 className="text-2xl md:text-4xl font-medium text-neutral-100 py-2">
           I'm a full-stack developer
         </h2>
         {/* <p className="text-neutral-100 py-2 font-normal">

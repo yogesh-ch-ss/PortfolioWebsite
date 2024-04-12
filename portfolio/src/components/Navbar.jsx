@@ -8,7 +8,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-12 flex justify-between md:justify-center items-center px-4 bg-neutral-800 bg-opacity-50 backdrop-blur-md text-neutral-100 z-30">
+    <div className="fixed w-full h-12 flex flex-row md:flex-col justify-between md:justify-center items-center px-4 bg-neutral-800 bg-opacity-50 backdrop-blur-md text-neutral-100 z-30">
       <div className="md:hidden text-2xl px-4 cursor-pointer z-30">
         <Link to="home" smooth={true} duration={500}>
           <FaUser />
@@ -16,8 +16,8 @@ const Navbar = () => {
       </div>
 
       {/* menu */}
-      <div className="text-base">
-        <ul className="hidden md:flex items-center justify-evenly px-4 gap-6">
+      <div className="text-base w-full max-w-[60rem]">
+        <ul className="hidden md:flex items-center justify-between gap-6">
           <li className="hover:text-white hover:scale-[120%] duration-200">
             <Link to="home" smooth={true} duration={500}>
               <FaUser />
@@ -35,7 +35,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="skills" smooth={true} duration={500}>
-              Skills
+              Technologies
             </Link>
           </li>
           <li>
@@ -86,7 +86,7 @@ const Navbar = () => {
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-            Skills
+            Technologies
           </Link>
         </li>
         <li className="py-6 text-4xl">
@@ -105,44 +105,6 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-
-      {/* socials */}
-      {/* <div className="hidden lg:flex fixed flex-col top-[50%] left-0">
-        <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500">
-            <a
-              href="/"
-              className="flex justify-between items-center w-full text-gray-300"
-            >
-              Linkedin <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-600">
-            <a
-              href="/"
-              className="flex justify-between items-center w-full text-gray-300"
-            >
-              Github <FaGithub size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-500">
-            <a
-              href="/"
-              className="flex justify-between items-center w-full text-gray-300"
-            >
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-purple-500">
-            <a
-              href="/"
-              className="flex justify-between items-center w-full text-gray-300"
-            >
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
-        </ul>
-      </div> */}
     </div>
   );
 };
