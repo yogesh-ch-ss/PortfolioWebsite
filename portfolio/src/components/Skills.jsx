@@ -1,53 +1,102 @@
 import React from "react";
 
-import { FaDisplay, FaServer } from "react-icons/fa6";
-
+import { FaDisplay, FaGears, FaServer } from "react-icons/fa6";
 
 const Skills = () => {
   return (
     <div
       name="skills"
-      className="w-full bg-neutral-800 text-neutral-100"
+      className="w-full h-auto bg-neutral-950 text-neutral-100 flex items-center justify-center py-24"
     >
-      <div className="flex flex-col h-full items-center justify-center">
-        <div>
-          <h1>Skills</h1>
+      {/* grid */}
+      <div className="w-full h-full grid grid-cols-1 sm:grid-cols-3 max-w-[60rem]">
+        <div className="grid-cols-subgrid col-span-3 px-6">
+          <h1 className="text-4xl font-bold">Technologies</h1>
         </div>
-        <div>
-          {/* grid */}
-          <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="px-4 py-8 bg-neutral-200 h-auto">
-              <div className="flex flex-col max-w-[30rem] min-w-fit lg:min-w-[25rem] float-left lg:float-right">
-                <div className="pt-8 pb-2">
-                  <FaDisplay className="text-[4rem]" />
+        <div className="grid-cols-subgrid col-span-3 px-6 py-4">
+          <p>
+            These are the technologies that I have worked with.
+          </p>
+        </div>
+
+        {/* frontend */}
+        <div className="px-6 py-8 h-auto min-w-[15rem]">
+          <div className="flex flex-col float-left">
+            <div className="pt-8">
+              <FaDisplay className="text-[4rem]" />
+            </div>
+            <div className="text-2xl font-bold py-4">Frontend</div>
+            <div className="text-lg font-medium text-neutral-400">
+              <div className="flex flex-col">
+                <div className="py-1">
+                  <p>HTML</p>
                 </div>
-                <div className="text-2xl font-bold pb-4">Frontend</div>
-                <div className="text-lg font-medium">
-                  <ul>
-                    <li className="cursor-default py-1">HTML</li>
-                    <li className="cursor-default py-1">CSS</li>
-                    <li className="cursor-default py-1">JavaScript</li>
-                    <li className="cursor-default py-1">TypeScript</li>
-                    <li className="cursor-default py-1">React</li>
-                    <li className="cursor-default py-1">Tailwind</li>
-                  </ul>
+                <div className="py-1">
+                  <p>CSS</p>
+                </div>
+                <div className="py-1">
+                  <p>JavaScript</p>
+                </div>
+                <div className="py-1">
+                  <p>TypeScript</p>
+                </div>
+                <div className="py-1">
+                  <p>React</p>
+                </div>
+                <div className="py-1">
+                  <p>Tailwind</p>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
 
-            {/* Backend */}
-            <div className="px-4 py-8 bg-neutral-200 h-auto">
-              <div className="flex flex-col max-w-[30rem] min-w-fit lg:min-w-[25rem] float-left">
-                <div className="pt-8 pb-2">
-                  <FaServer className="text-[4rem]" />
+        {/* backend */}
+        <div className="px-6 py-8 h-auto min-w-[15rem]">
+          <div className="flex flex-col float-left">
+            <div className="pt-8">
+              <FaServer className="text-[4rem]" />
+            </div>
+            <div className="text-2xl font-bold py-4">Backend</div>
+            <div className="text-lg font-medium text-neutral-400">
+              <div className="flex flex-col">
+                <div className="py-1">
+                  <p>Node.js</p>
                 </div>
-                <div className="text-2xl font-bold pb-4">Backend</div>
-                <div className="text-lg font-medium">
-                  <ul>
-                    <li className="cursor-default py-1">Node.js</li>
-                    <li className="cursor-default py-1">Express</li>
-                    <li className="cursor-default py-1">MongoDB</li>
-                  </ul>
+                <div className="py-1">
+                  <p>Express</p>
+                </div>
+                <div className="py-1">
+                  <p>MongoDB</p>
+                </div>
+                <div className="py-1">
+                  <p>REST API</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* others */}
+        <div className="px-6 py-8 h-auto min-w-[15rem]">
+          <div className="flex flex-col float-left">
+            <div className="pt-8">
+              <FaGears className="text-[4rem]" />
+            </div>
+            <div className="text-2xl font-bold py-4">Others</div>
+            <div className="text-lg font-medium text-neutral-400">
+              <div className="flex flex-col">
+                <div className="py-1">
+                  <p>Python</p>
+                </div>
+                <div className="py-1">
+                  <p>Amazon Web Services</p>
+                </div>
+                <div className="py-1">
+                  <p>GitHub</p>
+                </div>
+                <div className="py-1">
+                  <p>Postman APIs</p>
                 </div>
               </div>
             </div>
