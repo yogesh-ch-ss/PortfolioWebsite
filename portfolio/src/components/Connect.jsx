@@ -3,8 +3,8 @@ import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa6";
 
 const Connect = () => {
   return (
-    <div className="w-full h-[8rem] bg-neutral-900 px-8 text-neutral-100">
-      <div className="h-full flex flex-col md:flex-row justify-center items-center gap-2 md:gap-16">
+    <div className="w-full h-auto md:h-[8rem] bg-neutral-900 px-8 text-neutral-100">
+      <div className="h-full flex flex-col md:flex-row justify-center items-center gap-2 md:gap-16 py-4">
         <div>
           <h1 className="text-2xl md:text-3xl font-semibold">Connect with me</h1>
         </div>

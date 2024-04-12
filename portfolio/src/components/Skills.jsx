@@ -6,18 +6,25 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="w-full h-auto bg-neutral-950 text-neutral-100 flex items-center justify-center py-24"
+      className="w-full h-auto bg-neutral-950 text-neutral-100 flex flex-col items-center justify-center py-24"
     >
-      {/* grid */}
-      <div className="w-full h-full grid grid-cols-1 sm:grid-cols-3 max-w-[60rem]">
+      <div className="w-full h-full flex flex-col max-w-[60rem]">
         <div className="grid-cols-subgrid col-span-3 px-6">
           <h1 className="text-4xl font-bold">Technologies</h1>
         </div>
         <div className="grid-cols-subgrid col-span-3 px-6 py-4">
-          <p>
-            These are the technologies that I have worked with.
-          </p>
+          <p>These are the technologies that I have worked with.</p>
         </div>
+      </div>
+
+      {/* grid */}
+      <div className="w-full h-full grid grid-cols-1 sm:grid-cols-3 max-w-[60rem]">
+        {/* <div className="grid-cols-subgrid col-span-3 px-6">
+          <h1 className="text-4xl font-bold">Technologies</h1>
+        </div>
+        <div className="grid-cols-subgrid col-span-3 px-6 py-4">
+          <p>These are the technologies that I have worked with.</p>
+        </div> */}
 
         {/* frontend */}
         <div className="px-6 py-8 h-auto min-w-[15rem]">

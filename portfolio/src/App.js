@@ -6,6 +6,7 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Connect from "./components/Connect";
+import Aws from "./components/Aws";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Connect />
       <About />
       <Skills />
+      <Aws />
       <Work />
       <Resume />
       <Contact />
