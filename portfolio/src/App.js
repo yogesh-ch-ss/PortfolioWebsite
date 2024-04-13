@@ -7,19 +7,23 @@ import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Connect from "./components/Connect";
 import Aws from "./components/Aws";
+import Footer from "./components/Footer";
+import NewContact from "./components/NewContact";
 
 function App() {
   return (
     <div className="bg-neutral-950">
       <Navbar />
       <Home />
-      <Connect />
+      {/* <Connect /> */}
       <About />
       <Skills />
       <Aws />
       <Work />
       <Resume />
-      <Contact />
+      {/* <Contact /> */}
+      <NewContact />
+      <Footer />
     </div>
   );
 }

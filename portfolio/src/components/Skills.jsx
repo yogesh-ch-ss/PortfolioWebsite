@@ -10,10 +10,10 @@ const Skills = () => {
     >
       <div className="w-full h-full flex flex-col max-w-[60rem]">
         <div className="grid-cols-subgrid col-span-3 px-6">
-          <h1 className="text-4xl font-bold">Technologies</h1>
+          <h1 className="text-4xl font-bold">Skills</h1>
         </div>
-        <div className="grid-cols-subgrid col-span-3 px-6 py-4">
-          <p>These are the technologies that I have worked with.</p>
+        <div className="grid-cols-subgrid col-span-3 px-6 py-4 text-lg">
+          <p>These are the tools and technologies that I have worked with.</p>
         </div>
       </div>
 
