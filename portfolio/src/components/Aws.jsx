@@ -14,7 +14,7 @@ const Aws = () => {
           </h2>
         </div>
         <div className="py-4">
-          <a href="#">
+          <a href="https://www.credly.com/badges/46d53f65-b566-4a9e-b6c3-c9312c69e474/public_url" target="_blank">
             <button className="group flex gap-2 border-2 px-4 py-2 my-2 items-center rounded-full bg-gradient-to-br hover:from-pink-600 hover:via-fuchsia-800 hover:to-violet-900 text-neutral-100 hover:text-fuchsia-100 from-10% via-50% border-neutral-100 hover:border-neutral-950">
               View Certificate
               <span className="group-hover:translate-x-1 duration-300">

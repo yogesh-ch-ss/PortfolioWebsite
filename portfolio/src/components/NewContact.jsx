@@ -16,10 +16,11 @@ const NewContact = () => {
 
         <div className="max-w-[60rem] text-center flex flex-col justify-center items-center w-full h-full">
           {/* grid */}
-          <div className="w-full h-full grid grid-cols-1 sm:grid-cols-3 max-w-[60rem] gap-8 sm:gap-4 py-4">
+          <div className="w-full h-full grid grid-cols-1 sm:grid-cols-3 max-w-[60rem] gap-8 sm:gap-4 py-6">
             {/* email */}
             <a
-              href="#"
+              href="mailto:yogeshchsamant@gmail.com"
+              target="_blank"
               className="group flex flex-col items-center justify-center"
             >
               <div className="text-neutral-100 text-4xl py-1">
@@ -39,7 +40,8 @@ const NewContact = () => {
 
             {/* github */}
             <a
-              href="#"
+              href="https://github.com/yogesh-ch-ss"
+              target="_blank"
               className="group flex flex-col items-center justify-center"
             >
               <div className="text-neutral-100 text-4xl py-1">
@@ -59,7 +61,8 @@ const NewContact = () => {
 
             {/* linkedin */}
             <a
-              href="#"
+              href="https://www.linkedin.com/in/yogesh-chandra-singh-samant/"
+              target="_blank"
               className="group flex flex-col items-center justify-center"
             >
               <div className="text-neutral-100 text-4xl py-1">
@@ -80,7 +83,7 @@ const NewContact = () => {
         </div>
 
         {/* contact form */}
-        <div className="max-w-[40rem] text-center flex flex-col justify-center items-center w-full h-full py-4">
+        <div className="max-w-[40rem] text-center flex flex-col justify-center items-center w-full h-full">
           <form
             method="POST"
             action="https://getform.io/f/paoxodpb"
