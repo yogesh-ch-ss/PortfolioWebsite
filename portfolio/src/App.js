@@ -9,6 +9,7 @@ import Connect from "./components/Connect";
 import Aws from "./components/Aws";
 import Footer from "./components/Footer";
 import NewContact from "./components/NewContact";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       <About />
       <Skills />
       <Aws />
-      <Work />
+      {/* <Work /> */}
+      <Projects />
       <Resume />
       {/* <Contact /> */}
       <NewContact />
