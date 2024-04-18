@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { FaAngleLeft, FaAngleRight } from "react-icons/fa6";
 import ProjectCard from "./ProjectCard";
 
 const ProjectCarousel = (props) => {
@@ -15,7 +16,7 @@ const ProjectCarousel = (props) => {
     <div className="flex flex-col items-center justify-center">
       {/* slider cards */}
       <div
-        className={`flex transition ease-out duration-400`}
+        className={`flex transition ease-out duration-400 w-screen md:max-w-[30rem] py-2`}
         style={{
           transform: `translateX(-${curr * 100}%)`,
         }}
@@ -31,12 +32,12 @@ const ProjectCarousel = (props) => {
       </div>
 
       {/* slider buttons */}
-      <div className="flex justify-center items-center gap-4 bg-neutral-300">
-        <button onClick={prev} className="">
-          Previous
+      <div className="flex justify-center items-center gap-12">
+        <button onClick={prev} className="border-2 p-2 rounded-full bg-transparent hover:bg-neutral-600 duration-100">
+          <FaAngleLeft />
         </button>
-        <button onClick={next} className="">
-          Next
+        <button onClick={next} className="border-2 p-2 rounded-full bg-transparent hover:bg-neutral-600 duration-100">
+          <FaAngleRight />
         </button>
       </div>
     </div>

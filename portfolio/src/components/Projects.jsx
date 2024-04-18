@@ -1,10 +1,12 @@
 import React from "react";
 import ProjectCarousel from "./ProjectCarousel";
+import { FaAmazon } from "react-icons/fa6";
 
 const listOfProjects = [
   {
     id: 1,
     name: "Project 1",
+    icon: <FaAmazon />,
     description: "Description of the project",
     stack: "Stack",
     website: "website url",
@@ -13,6 +15,7 @@ const listOfProjects = [
   {
     id: 2,
     name: "Project 2",
+    icon: <FaAmazon />,
     description: "Description of the project",
     stack: "Stack",
     website: "website url",
@@ -21,6 +24,7 @@ const listOfProjects = [
   {
     id: 3,
     name: "Project 3",
+    icon: <FaAmazon />,
     description: "Description of the project",
     stack: "Stack",
     website: "website url",
@@ -29,6 +33,7 @@ const listOfProjects = [
   {
     id: 4,
     name: "Project 4",
+    icon: <FaAmazon />,
     description: "Description of the project",
     stack: "Stack",
     website: "website url",
@@ -37,6 +42,7 @@ const listOfProjects = [
   {
     id: 5,
     name: "Project 5",
+    icon: <FaAmazon />,
     description: "Description of the project",
     stack: "Stack",
     website: "website url",
@@ -48,14 +54,12 @@ const Projects = () => {
   return (
     <div className="w-full h-auto bg-neutral-800 py-24 text-neutral-100">
       <div className="flex flex-col justify-center items-center w-full h-full">
-        <div>Projects</div>
         <div>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem,
-          repudiandae?
+          <h1 className="text-4xl font-bold">Projects</h1>
         </div>
 
         {/* sliding cards */}
-        <div className="max-w-[60rem] m-auto">
+        <div className="w-full m-auto overflow-hidden">
           <ProjectCarousel listOfProjects={listOfProjects} />
         </div>
       </div>
