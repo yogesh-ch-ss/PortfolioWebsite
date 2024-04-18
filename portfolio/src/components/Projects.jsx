@@ -9,7 +9,7 @@ const listOfProjects = [
     icon: <FaAmazon />,
     description: "Description of the project",
     stack: "Stack",
-    website: "website url",
+    website: "https://www.youtube.com/",
     github: "github url",
   },
   {
@@ -18,7 +18,7 @@ const listOfProjects = [
     icon: <FaAmazon />,
     description: "Description of the project",
     stack: "Stack",
-    website: "website url",
+    // website: "website url",
     github: "github url",
   },
   {
@@ -27,7 +27,7 @@ const listOfProjects = [
     icon: <FaAmazon />,
     description: "Description of the project",
     stack: "Stack",
-    website: "website url",
+    // website: "website url",
     github: "github url",
   },
   {
@@ -36,7 +36,7 @@ const listOfProjects = [
     icon: <FaAmazon />,
     description: "Description of the project",
     stack: "Stack",
-    website: "website url",
+    // website: "website url",
     github: "github url",
   },
   {
@@ -45,7 +45,7 @@ const listOfProjects = [
     icon: <FaAmazon />,
     description: "Description of the project",
     stack: "Stack",
-    website: "website url",
+    // website: "website url",
     github: "github url",
   },
 ];
