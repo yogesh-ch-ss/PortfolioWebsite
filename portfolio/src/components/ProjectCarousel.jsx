@@ -26,17 +26,35 @@ const ProjectCarousel = (props) => {
             key={index}
             className="flex-grow flex-shrink-0 w-full text-center"
           >
-            <ProjectCard project={project} />
+            <ProjectCard
+              project={project}
+              bg={
+                props.listOfProjects.indexOf(project) === curr
+                  ? props.bgFocus
+                  : props.bg
+              }
+              pointer={
+                props.listOfProjects.indexOf(project) === curr
+                ? null
+                : "pointer-events-none"
+              }
+            />
           </span>
         ))}
       </div>
 
       {/* slider buttons */}
       <div className="flex justify-center items-center gap-12">
-        <button onClick={prev} className="border-2 p-2 rounded-full bg-transparent hover:bg-neutral-600 duration-100">
+        <button
+          onClick={prev}
+          className="border-2 p-2 rounded-full bg-transparent hover:bg-neutral-600 duration-100"
+        >
           <FaAngleLeft />
         </button>
-        <button onClick={next} className="border-2 p-2 rounded-full bg-transparent hover:bg-neutral-600 duration-100">
+        <button
+          onClick={next}
+          className="border-2 p-2 rounded-full bg-transparent hover:bg-neutral-600 duration-100"
+        >
           <FaAngleRight />
         </button>
       </div>

@@ -2,6 +2,10 @@ import React from "react";
 import ProjectCarousel from "./ProjectCarousel";
 import { FaAmazon } from "react-icons/fa6";
 
+const bg = "bg-neutral-800";
+const bgFocus =
+  "bg-gradient-to-br from-pink-600 via-fuchsia-800 to-violet-900 from-10% via-50%";
+
 const listOfProjects = [
   {
     id: 1,
@@ -12,7 +16,6 @@ const listOfProjects = [
     stack: "React, Tailwind.",
     website: "https://www.youtube.com/",
     github: "github url",
-    bg: "bg-neutral-800",
   },
   {
     id: 2,
@@ -20,9 +23,8 @@ const listOfProjects = [
     icon: <FaAmazon />,
     description: "Description of the project",
     stack: "Stack",
-    // website: "website url",
+    website: "https://www.youtube.com/",
     github: "github url",
-    bg: "bg-neutral-800",
   },
   {
     id: 3,
@@ -32,7 +34,6 @@ const listOfProjects = [
     stack: "Stack",
     // website: "website url",
     github: "github url",
-    bg: "bg-neutral-800",
   },
   {
     id: 4,
@@ -42,7 +43,6 @@ const listOfProjects = [
     stack: "Stack",
     // website: "website url",
     github: "github url",
-    bg: "bg-neutral-800",
   },
   {
     id: 5,
@@ -52,7 +52,6 @@ const listOfProjects = [
     stack: "Stack",
     // website: "website url",
     github: "github url",
-    bg: "bg-neutral-800",
   },
 ];
 
@@ -66,7 +65,11 @@ const Projects = () => {
 
         {/* sliding cards */}
         <div className="w-full m-auto overflow-hidden">
-          <ProjectCarousel listOfProjects={listOfProjects} />
+          <ProjectCarousel
+            listOfProjects={listOfProjects}
+            bg={bg}
+            bgFocus={bgFocus}
+          />
         </div>
       </div>
     </div>

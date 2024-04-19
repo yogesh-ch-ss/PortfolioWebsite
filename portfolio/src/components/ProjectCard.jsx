@@ -4,7 +4,7 @@ import { FaAngleRight } from "react-icons/fa6";
 const ProjectCard = (props) => {
   return (
     <div
-      className={`flex flex-col items-start justify-center mx-4 my-4 border-[1px] border-neutral-600 rounded-xl px-8 py-8 ${props.project.bg}`}
+      className={`flex flex-col items-start justify-center mx-4 my-4 border-[1px] border-neutral-600 rounded-xl px-8 py-8 ${props.bg}`}
     >
       <div className="text-4xl">{props.project.icon}</div>
       <div className="font-bold text-2xl py-2">{props.project.name}</div>
@@ -24,7 +24,7 @@ const ProjectCard = (props) => {
               href={props.project.website}
               target="_blank"
               rel="external"
-              className="pt-2 text-blue-500 font-normal flex items-center justify-center py-1 hover:underline"
+              className={`pt-2 text-blue-500 font-normal flex items-center justify-center py-1 hover:underline ${props.pointer}`}
             >
               Website
               <FaAngleRight />
@@ -37,7 +37,7 @@ const ProjectCard = (props) => {
               href={props.project.github}
               target="_blank"
               rel="external"
-              className="pt-2 text-blue-500 font-normal flex items-center justify-center py-1 hover:underline"
+              className={`pt-2 text-blue-500 font-normal flex items-center justify-center py-1 hover:underline ${props.pointer}`}
             >
               Github repo
               <FaAngleRight />
