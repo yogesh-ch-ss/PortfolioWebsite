@@ -11,6 +11,7 @@ const listOfProjects = [
     stack: "Stack",
     website: "https://www.youtube.com/",
     github: "github url",
+    bg: "bg-neutral-800",
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ const listOfProjects = [
     stack: "Stack",
     // website: "website url",
     github: "github url",
+    bg: "bg-neutral-800",
   },
   {
     id: 3,
@@ -29,6 +31,7 @@ const listOfProjects = [
     stack: "Stack",
     // website: "website url",
     github: "github url",
+    bg: "bg-neutral-800",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ const listOfProjects = [
     stack: "Stack",
     // website: "website url",
     github: "github url",
+    bg: "bg-neutral-800",
   },
   {
     id: 5,
@@ -47,12 +51,13 @@ const listOfProjects = [
     stack: "Stack",
     // website: "website url",
     github: "github url",
+    bg: "bg-neutral-800",
   },
 ];
 
 const Projects = () => {
   return (
-    <div className="w-full h-auto bg-neutral-800 py-24 text-neutral-100">
+    <div className="w-full h-auto bg-neutral-950 py-24 text-neutral-100">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div>
           <h1 className="text-4xl font-bold">Projects</h1>
