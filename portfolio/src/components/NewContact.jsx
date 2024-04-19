@@ -8,7 +8,7 @@ import {
 
 const NewContact = () => {
   return (
-    <div name="contact" className="w-full h-auto bg-neutral-800 py-24">
+    <div name="contact" className="w-full h-auto bg-neutral-950 py-24">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[60rem] text-center flex flex-col justify-center items-center w-full h-full">
           <h1 className="text-4xl font-bold text-neutral-100">Contact</h1>

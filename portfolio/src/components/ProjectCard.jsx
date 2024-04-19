@@ -8,7 +8,7 @@ const ProjectCard = (props) => {
     >
       <div className="text-4xl">{props.project.icon}</div>
       <div className="font-bold text-2xl py-2">{props.project.name}</div>
-      <div className="">{props.project.description}</div>
+      <div className="text-start">{props.project.description}</div>
       <div className="py-2 text-neutral-400">{props.project.stack}</div>
       {/* <div className="">
         {props.project.website ? (
@@ -24,7 +24,7 @@ const ProjectCard = (props) => {
               href={props.project.website}
               target="_blank"
               rel="external"
-              className="pt-2 text-blue-500 font-normal text-sm flex items-center justify-center py-1 hover:underline"
+              className="pt-2 text-blue-500 font-normal flex items-center justify-center py-1 hover:underline"
             >
               Website
               <FaAngleRight />
@@ -37,7 +37,7 @@ const ProjectCard = (props) => {
               href={props.project.github}
               target="_blank"
               rel="external"
-              className="pt-2 text-blue-500 font-normal text-sm flex items-center justify-center py-1 hover:underline"
+              className="pt-2 text-blue-500 font-normal flex items-center justify-center py-1 hover:underline"
             >
               Github repo
               <FaAngleRight />

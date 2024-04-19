@@ -25,7 +25,7 @@ function App() {
       <Resume />
       {/* <Contact /> */}
       <NewContact />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -3,7 +3,7 @@ import { FaAngleRight, FaAws } from "react-icons/fa6";
 
 const Aws = () => {
   return (
-    <div className="w-full h-auto md:h-[8rem] bg-gradient-to-b from-gray-800 to-gray-950 px-8 text-neutral-100">
+    <div className="w-full h-auto md:h-[8rem] bg-gradient-to-b from-gray-800 to-gray-900 px-8 text-neutral-100">
       <div className="h-full flex flex-col md:flex-row justify-center items-center gap-2 md:gap-16">
         <div className="text-[4rem] py-4">
           <FaAws />

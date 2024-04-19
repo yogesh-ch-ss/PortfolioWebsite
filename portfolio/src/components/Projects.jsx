@@ -5,10 +5,11 @@ import { FaAmazon } from "react-icons/fa6";
 const listOfProjects = [
   {
     id: 1,
-    name: "Project 1",
+    name: "Portfolio",
     icon: <FaAmazon />,
-    description: "Description of the project",
-    stack: "Stack",
+    description:
+      "My personal portfolio website that's designed to showcase on the internet.",
+    stack: "React, Tailwind.",
     website: "https://www.youtube.com/",
     github: "github url",
     bg: "bg-neutral-800",

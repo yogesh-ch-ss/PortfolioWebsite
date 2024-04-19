@@ -8,7 +8,7 @@ const Home = () => {
     <div
       name="home"
       // className="w-full h-[48rem] bg-gradient-to-t from-neutral-950 via-gray-900 to-slate-900 text-center"
-      className="w-full h-[40rem] bg-neutral-950 text-center"
+      className="w-full h-[40rem] bg-neutral-90 text-center"
     >
       {/* container */}
       <div className="max-w-[60rem] mx-auto px-8 flex flex-col justify-center h-full">
