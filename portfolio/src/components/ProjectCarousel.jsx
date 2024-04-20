@@ -30,13 +30,18 @@ const ProjectCarousel = (props) => {
               project={project}
               bg={
                 props.listOfProjects.indexOf(project) === curr
-                  ? props.bgFocus
-                  : props.bg
+                  ? props.activeCard.bg
+                  : props.passiveCard.bg
               }
               pointer={
                 props.listOfProjects.indexOf(project) === curr
-                ? null
-                : "pointer-events-none"
+                  ? props.activeCard.pointer
+                  : props.passiveCard.pointer
+              }
+              linkColour={
+                props.listOfProjects.indexOf(project) === curr
+                  ? props.activeCard.linkColour
+                  : props.passiveCard.linkColour
               }
             />
           </span>

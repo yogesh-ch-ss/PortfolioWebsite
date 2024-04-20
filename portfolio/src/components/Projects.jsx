@@ -2,9 +2,17 @@ import React from "react";
 import ProjectCarousel from "./ProjectCarousel";
 import { FaAmazon } from "react-icons/fa6";
 
-const bg = "bg-neutral-800";
-const bgFocus =
-  "bg-gradient-to-br from-pink-600 via-fuchsia-800 to-violet-900 from-10% via-50%";
+const activeCard = {
+  bg: "bg-gradient-to-br from-pink-600 via-fuchsia-800 to-violet-900 from-10% via-50%",
+  pointer: null,
+  linkColour: "text-blue-500",
+};
+
+const passiveCard = {
+  bg: "bg-neutral-800",
+  pointer: "pointer-events-none",
+  linkColour: "text-neutral-400",
+};
 
 const listOfProjects = [
   {
@@ -13,16 +21,16 @@ const listOfProjects = [
     icon: <FaAmazon />,
     description:
       "My personal portfolio website that's designed to showcase on the internet.",
-    stack: "React, Tailwind.",
+    stack: "React, Tailwind",
     website: "https://www.youtube.com/",
     github: "github url",
   },
   {
     id: 2,
-    name: "Project 2",
+    name: "Vatavaranam ",
     icon: <FaAmazon />,
-    description: "Description of the project",
-    stack: "Stack",
+    description: "Weather Forecast App",
+    stack: "React Typescript, Tailwind",
     website: "https://www.youtube.com/",
     github: "github url",
   },
@@ -67,8 +75,8 @@ const Projects = () => {
         <div className="w-full m-auto overflow-hidden">
           <ProjectCarousel
             listOfProjects={listOfProjects}
-            bg={bg}
-            bgFocus={bgFocus}
+            activeCard={activeCard}
+            passiveCard={passiveCard}
           />
         </div>
       </div>
