@@ -27,7 +27,7 @@ const ProjectCard = (props) => {
               href={props.project.website}
               target="_blank"
               rel="external"
-              className={`pt-2 ${props.linkColour} font-normal flex items-center justify-center py-1 hover:underline ${props.pointer}`}
+              className={`pt-2 ${props.linkColour} font-semibold flex items-center justify-center py-1 hover:underline ${props.pointer}`}
             >
               Website
               <FaAngleRight />
@@ -40,7 +40,7 @@ const ProjectCard = (props) => {
               href={props.project.github}
               target="_blank"
               rel="external"
-              className={`pt-2 ${props.linkColour} font-normal flex items-center justify-center py-1 hover:underline ${props.pointer}`}
+              className={`pt-2 ${props.linkColour} font-semibold flex items-center justify-center py-1 hover:underline ${props.pointer}`}
             >
               Github repo
               <FaAngleRight />

@@ -7,6 +7,7 @@ import { TbCameraPin } from "react-icons/tb";
 
 const activeCard = {
   bg: "bg-gradient-to-br from-pink-600 via-fuchsia-800 to-violet-900 from-10% via-50%",
+  // bg: "bg-gradient-to-br from-stone-500 to-stone-700",
   pointer: null,
   linkColour: "text-blue-500",
 };
