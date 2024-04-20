@@ -1,6 +1,9 @@
 import React from "react";
 import ProjectCarousel from "./ProjectCarousel";
 import { FaAmazon } from "react-icons/fa6";
+import { MdPerson } from "react-icons/md";
+import { BsCloudSunFill } from "react-icons/bs";
+import { TbCameraPin } from "react-icons/tb";
 
 const activeCard = {
   bg: "bg-gradient-to-br from-pink-600 via-fuchsia-800 to-violet-900 from-10% via-50%",
@@ -18,7 +21,7 @@ const listOfProjects = [
   {
     id: 1,
     name: "Portfolio",
-    icon: <FaAmazon />,
+    icon: <MdPerson />,
     description:
       "My personal portfolio website that's designed to showcase on the internet.",
     stack: "React, Tailwind",
@@ -28,7 +31,7 @@ const listOfProjects = [
   {
     id: 2,
     name: "Vatavaranam ",
-    icon: <FaAmazon />,
+    icon: <BsCloudSunFill />,
     description: "Weather Forecast App",
     stack: "React Typescript, Tailwind",
     website: "https://www.youtube.com/",
@@ -36,8 +39,8 @@ const listOfProjects = [
   },
   {
     id: 3,
-    name: "Project 3",
-    icon: <FaAmazon />,
+    name: "MesLieux",
+    icon: <TbCameraPin />,
     description: "Description of the project",
     stack: "Stack",
     // website: "website url",

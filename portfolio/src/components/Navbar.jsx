@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { FaUser, FaBars, FaCircleXmark } from "react-icons/fa6";
-
+import { MdPerson, MdOutlineMenuOpen, MdClose } from "react-icons/md";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -11,7 +10,7 @@ const Navbar = () => {
     <div className="fixed w-full h-12 flex flex-row md:flex-col justify-between md:justify-center items-center px-4 bg-neutral-800 bg-opacity-50 backdrop-blur-md text-neutral-100 z-30">
       <div className="md:hidden text-2xl px-4 cursor-pointer z-30">
         <Link to="home" smooth={true} duration={500}>
-          <FaUser />
+          <MdPerson />
         </Link>
       </div>
 
@@ -20,7 +19,7 @@ const Navbar = () => {
         <ul className="hidden md:flex items-center justify-between gap-6">
           <li className="hover:text-white hover:scale-[120%] duration-200">
             <Link to="home" smooth={true} duration={500}>
-              <FaUser />
+              <MdPerson className="text-2xl" />
             </Link>
           </li>
           <li>
@@ -62,7 +61,7 @@ const Navbar = () => {
         onClick={handleClick}
         className="md:hidden z-10 text-2xl px-4 cursor-pointer"
       >
-        {!nav ? <FaBars /> : <FaCircleXmark />}
+        {!nav ? <MdOutlineMenuOpen /> : <MdClose />}
       </div>
 
       {/* mobile menu */}

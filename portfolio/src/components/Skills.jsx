@@ -1,6 +1,7 @@
 import React from "react";
 
 import { FaDisplay, FaGears, FaServer } from "react-icons/fa6";
+import { MdOutlinePhonelink } from "react-icons/md";
 
 const Skills = () => {
   return (
@@ -23,7 +24,7 @@ const Skills = () => {
         <div className="px-6 py-8 h-auto min-w-[15rem]">
           <div className="flex flex-col float-left">
             <div className="pt-8">
-              <FaDisplay className="text-[4rem]" />
+              <MdOutlinePhonelink className="text-[4rem]" />
             </div>
             <div className="text-2xl font-bold py-4">Frontend</div>
             <div className="text-lg font-medium text-neutral-400">

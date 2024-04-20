@@ -52,13 +52,13 @@ const ProjectCarousel = (props) => {
       <div className="flex justify-center items-center gap-12">
         <button
           onClick={prev}
-          className="border-2 p-2 rounded-full bg-transparent hover:bg-neutral-600 duration-100"
+          className="border-2 p-2 rounded-full bg-transparent hover:bg-neutral-700 duration-100"
         >
           <FaAngleLeft />
         </button>
         <button
           onClick={next}
-          className="border-2 p-2 rounded-full bg-transparent hover:bg-neutral-600 duration-100"
+          className="border-2 p-2 rounded-full bg-transparent hover:bg-neutral-700 duration-100"
         >
           <FaAngleRight />
         </button>
