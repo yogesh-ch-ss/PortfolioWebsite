@@ -36,7 +36,7 @@ const Home = () => {
         </h2>
         <div className="flex items-center justify-center py-2">
           <Link to="about" smooth={true} duration={500}>
-            <button className="group flex gap-2 border-2 px-4 py-2 my-2 items-center rounded-full bg-neutral-200 hover:bg-white text-neutral-950 font-medium">
+            <button className="group flex gap-2 px-4 py-2 my-2 items-center rounded-full bg-neutral-200 hover:bg-white  text-neutral-950 font-medium ">
               Learn more
               <span className="group-hover:translate-y-1 duration-300">
                 <FaAnglesDown />

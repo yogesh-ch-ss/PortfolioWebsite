@@ -1,10 +1,14 @@
 import React from "react";
+import { MdPerson } from "react-icons/md";
 
 const About = () => {
   return (
-    <div name="about" className="w-full bg-gradient-to-t from-teal-800 to-teal-700 py-24 text-neutral-100">
+    <div name="about" className="w-full py-24 text-neutral-100 bg-neutral-950">
       <div className="flex flex-col justify-center items-center w-full h-full">
         {/* container */}
+        {/* <div className="text-9xl">
+          <MdPerson />
+        </div> */}
         <div className="max-w-[60rem] w-full px-4">
           <div className="text-center">
             <h1 className="text-4xl font-bold">About</h1>

@@ -6,14 +6,14 @@ import { BsCloudSunFill } from "react-icons/bs";
 import { TbCameraPin } from "react-icons/tb";
 
 const activeCard = {
-  bg: "bg-gradient-to-br from-pink-600 via-fuchsia-800 to-violet-900 from-10% via-50%",
-  // bg: "bg-gradient-to-br from-stone-500 to-stone-700",
+  // bg: "bg-gradient-to-br from-pink-600 via-fuchsia-800 to-violet-900 from-10% via-50%",
+  bg: "bg-gradient-to-br from-slate-900 via-slate-700 to-slate-900",
   pointer: null,
   linkColour: "text-blue-500",
 };
 
 const passiveCard = {
-  bg: "bg-neutral-800",
+  bg: "bg-neutral-900",
   pointer: "pointer-events-none",
   linkColour: "text-neutral-400",
 };
@@ -43,7 +43,7 @@ const listOfProjects = [
     name: "MesLieux",
     icon: <TbCameraPin />,
     description: "Description of the project",
-    stack: "Stack",
+    stack: "MERN Stack",
     // website: "website url",
     github: "github url",
   },
