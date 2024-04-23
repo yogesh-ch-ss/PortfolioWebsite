@@ -69,7 +69,10 @@ const listOfProjects = [
 
 const Projects = () => {
   return (
-    <div className="w-full h-auto bg-neutral-950 py-24 text-neutral-100">
+    <div
+      name="projects"
+      className="w-full h-auto bg-neutral-950 py-24 text-neutral-100"
+    >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div>
           <h1 className="text-4xl font-bold">Projects</h1>
