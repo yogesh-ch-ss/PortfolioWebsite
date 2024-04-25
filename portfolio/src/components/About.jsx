@@ -3,7 +3,10 @@ import { MdPerson } from "react-icons/md";
 
 const About = () => {
   return (
-    <div name="about" className="w-full py-24 text-neutral-100 bg-neutral-950">
+    <div
+      name="about"
+      className="w-full py-24 text-neutral-100 bg-neutral-950"
+    >
       <div className="flex flex-col justify-center items-center w-full h-full">
         {/* container */}
         {/* <div className="text-9xl">

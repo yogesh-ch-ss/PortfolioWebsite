@@ -8,7 +8,8 @@ const Resume = () => {
       <div
         name="resume"
         // className="group w-full h-[20rem] bg-gradient-to-br from-pink-600 via-fuchsia-800 to-violet-900 from-10% via-50% px-20"
-        className="group w-full h-[20rem] px-20 bg-gradient-to-b from-slate-800 to-slate-900"
+        // className="group w-full h-[20rem] px-20 bg-gradient-to-br from-pink-900 via-purple-900 to-blue-900"
+        className="group w-full h-[20rem] px-20 bg-gradient-to-br from-purple-900 to-red-900"
       >
         {/* <div
         name="resume"
@@ -23,7 +24,7 @@ const Resume = () => {
           </div>
           <div className="text-md pt-2">
             <p className="group-hover:underline text-blue-500 flex items-center justify-center font-medium text-lg">
-              Click to view and download my resume {<FaAngleRight />} 
+              Click to view and download my resume {<FaAngleRight />}
             </p>
           </div>
         </div>

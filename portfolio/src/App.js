@@ -10,6 +10,7 @@ import Aws from "./components/Aws";
 import Footer from "./components/Footer";
 import NewContact from "./components/NewContact";
 import Projects from "./components/Projects";
+import Divider from "./components/Divider";
 
 function App() {
   return (
