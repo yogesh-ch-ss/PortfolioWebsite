@@ -6,9 +6,10 @@ const ProjectCard = (props) => {
     <div
       className={`flex flex-col items-start justify-center mx-4 my-4 border-[1px] border-neutral-600 rounded-xl px-8 py-8 ${props.bg}`}
     >
-      <div className="text-5xl">{props.project.icon}</div>
-      <div className="font-bold text-2xl py-2">{props.project.name}</div>
-      <div className="text-start min-h-[6rem] h-auto">{props.project.description}</div>
+      <div className="text-start text-5xl">{props.project.icon}</div>
+      <div className="text-start font-bold text-2xl py-2">{props.project.name}</div>
+      <div className="text-start h-auto text-lg font-bold">{"- "}{props.project.about}</div>
+      <div className="py-2 text-start min-h-[6rem] h-auto text-neutral-300">{props.project.description}</div>
       <div className="py-2 flex gap-4 items-center">
         <FaLayerGroup className="text-lg" />
         {props.project.stack}

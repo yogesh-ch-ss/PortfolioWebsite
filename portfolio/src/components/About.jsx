@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       name="about"
-      // className="w-full py-24 text-neutral-100 bg-gradient-to-br from-gray-900 to-gray-800"
+      // className="w-full py-24 text-neutral-100 bg-gradient-to-b from-slate-900 to-black"
       className="w-full py-24 text-neutral-100 bg-neutral-900"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">

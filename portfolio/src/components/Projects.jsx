@@ -4,6 +4,8 @@ import { FaAmazon } from "react-icons/fa6";
 import { MdPerson } from "react-icons/md";
 import { BsCloudSunFill } from "react-icons/bs";
 import { TbCameraPin } from "react-icons/tb";
+import { FaDumbbell } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa6";
 
 const activeCard = {
   // bg: "bg-gradient-to-br from-pink-600 via-fuchsia-800 to-violet-900 from-10% via-50%",
@@ -20,51 +22,66 @@ const passiveCard = {
 };
 
 const listOfProjects = [
+  // {
+  //   id: 0,
+  //   name: "Template",
+  //   icon: <MdPerson />,
+  //   about: "Template About",
+  //   description: "Template Description",
+  //   stack: "React, Tailwind",
+  //   website: "https://www.youtube.com/",
+  //   github: "https://github.com/yogesh-ch-ss",
+  // },
   {
     id: 1,
     name: "Portfolio",
     icon: <MdPerson />,
+    about: "Personal Portfolio Website",
     description:
       "My personal portfolio website that's designed to showcase on the internet.",
     stack: "React, Tailwind",
-    website: "https://www.youtube.com/",
-    github: "github url",
+    website: "/",
+    github: "https://github.com/yogesh-ch-ss/PortfolioWebsite",
   },
   {
     id: 2,
     name: "Vatavaranam ",
     icon: <BsCloudSunFill />,
-    description: "Weather Forecast App",
+    about: "Weather Forecast App",
+    description: "Checkout the weather in your area through this clean, minimalist app!",
     stack: "React Typescript, Tailwind",
-    website: "https://www.youtube.com/",
-    github: "github url",
+    website: "https://vatavaranam.web.app/",
+    github: "https://github.com/yogesh-ch-ss/Vatavaranam",
   },
   {
     id: 3,
     name: "MesLieux",
     icon: <TbCameraPin />,
-    description: "Description of the project",
+    about: "Travel Photo App",
+    description: "Sign up and showcase your trip photos to the world!",
     stack: "MERN Stack",
     // website: "website url",
-    github: "github url",
+    github: "https://github.com/yogesh-ch-ss/MesLieux",
   },
   {
     id: 4,
-    name: "Project 4",
-    icon: <FaAmazon />,
-    description: "Description of the project",
-    stack: "Stack",
+    name: "Duanlian",
+    icon: <FaDumbbell />,
+    about: "Personal Workout Tracker",
+    description: "A simple web app to keeps a log of your exercises.",
+    stack: "MERN Stack",
     // website: "website url",
-    github: "github url",
+    github: "https://github.com/yogesh-ch-ss/Duanlian",
   },
   {
     id: 5,
-    name: "Project 5",
-    icon: <FaAmazon />,
-    description: "Description of the project",
-    stack: "Stack",
+    name: "Duanlian",
+    icon: <FaTwitter />,
+    about: "Clone of Twitter",
+    description: "A clone of twitter login and feeds page (currently known as X).",
+    stack: "MERN Stack",
     // website: "website url",
-    github: "github url",
+    github: "https://github.com/yogesh-ch-ss/Tweeter",
   },
 ];
 
