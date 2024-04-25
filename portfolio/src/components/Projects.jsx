@@ -75,7 +75,7 @@ const listOfProjects = [
   },
   {
     id: 5,
-    name: "Duanlian",
+    name: "Tweeter",
     icon: <FaTwitter />,
     about: "Clone of Twitter",
     description: "A clone of twitter login and feeds page (currently known as X).",
@@ -93,7 +93,7 @@ const Projects = () => {
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div>
-          <h1 className="text-4xl font-bold">Projects</h1>
+          <h1 className="text-4xl font-bold pb-4">Projects</h1>
         </div>
 
         {/* sliding cards */}
