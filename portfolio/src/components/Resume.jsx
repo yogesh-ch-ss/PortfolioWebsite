@@ -18,7 +18,7 @@ const Resume = () => {
         />
 
         {/* Dim Overlay */}
-        <div className="absolute inset-0 bg-black opacity-50" />
+        <div className="absolute inset-0 bg-black opacity-35" />
 
         <div className="absolute inset-0 flex flex-col justify-center items-center h-full text-neutral-100">
           <div className="px-4 py-4 text-[7rem] duration-200">

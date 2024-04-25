@@ -8,18 +8,12 @@ const ProjectCard = (props) => {
     >
       <div className="text-5xl">{props.project.icon}</div>
       <div className="font-bold text-2xl py-2">{props.project.name}</div>
-      <div className="text-start h-[6rem]">{props.project.description}</div>
+      <div className="text-start min-h-[6rem] h-auto">{props.project.description}</div>
       <div className="py-2 flex gap-4 items-center">
         <FaLayerGroup className="text-lg" />
         {props.project.stack}
       </div>
-      {/* <div className="">
-        {props.project.website ? (
-          <a href={props.project.website} target="_blank" rel="external">
-            <button className="border-2 rounded-xl px-2 py-1">Website</button>
-          </a>
-        ) : null}
-      </div> */}
+
       <div className="flex w-full items-center justify-between gap-4">
         <div className="">
           {props.project.website ? (

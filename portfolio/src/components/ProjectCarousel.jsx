@@ -16,7 +16,7 @@ const ProjectCarousel = (props) => {
     <div className="flex flex-col items-center justify-center">
       {/* slider cards */}
       <div
-        className={`flex transition ease-out duration-500 w-screen md:max-w-[30rem] py-2`}
+        className={`flex transition ease-out duration-500 w-screen sm:max-w-[30rem] py-2`}
         style={{
           transform: `translateX(-${curr * 100}%)`,
         }}
