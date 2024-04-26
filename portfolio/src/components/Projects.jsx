@@ -40,7 +40,7 @@ const listOfProjects = [
     description:
       "My personal portfolio website that's designed to showcase on the internet.",
     stack: "React, Tailwind",
-    website: "/",
+    website: "https://yogesh-ch-ss.github.io/PortfolioWebsite/",
     github: "https://github.com/yogesh-ch-ss/PortfolioWebsite",
   },
   {
