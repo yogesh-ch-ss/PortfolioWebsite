@@ -8,7 +8,7 @@ import {
 
 const NewContact = () => {
   return (
-    <div name="contact" className="w-full h-auto bg-neutral-900 py-24">
+    <div name="contact" className="w-full h-auto bg-neutral-900 py-32">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[60rem] text-center flex flex-col justify-center items-center w-full h-full">
           <h1 className="text-4xl font-bold text-neutral-100">Contact</h1>
@@ -112,7 +112,7 @@ const NewContact = () => {
               rows="10"
               placeholder="Message"
             />
-            <button className="group flex gap-2 border-2 px-6 py-2 mx-auto my-2 items-center rounded-full bg-gradient-to-br hover:from-pink-600 hover:via-fuchsia-800 hover:to-violet-900 text-neutral-100 hover:text-fuchsia-100 from-10% via-50% border-neutral-100 hover:border-neutral-950">
+            <button className="group flex gap-2 border-2 px-6 py-2 mx-auto my-2 items-center rounded-full bg-zinc-600 bg-gradient-to-br hover:from-fuchsia-700 hover:via-teal-700 hover:to-indigo-900 from-10% text-neutral-100 hover:text-neutral-100 border-neutral-300 hover:border-neutral-900">
               Let's collaborate
               <span className="group-hover:translate-x-1 duration-300">
                 <FaAngleRight />
