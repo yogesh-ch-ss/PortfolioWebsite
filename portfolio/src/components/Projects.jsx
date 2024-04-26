@@ -79,7 +79,7 @@ const listOfProjects = [
     icon: <FaTwitter />,
     about: "Clone of Twitter",
     description: "A clone of twitter login and feeds page (currently known as X).",
-    stack: "MERN Stack",
+    stack: "HTML, CSS, JavaScript",
     // website: "website url",
     github: "https://github.com/yogesh-ch-ss/Tweeter",
   },
