@@ -89,7 +89,7 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="w-full h-auto bg-neutral-950 py-32 text-neutral-100"
+      className="w-full h-auto bg-neutral-950 py-32 text-neutral-100 px-4"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div>

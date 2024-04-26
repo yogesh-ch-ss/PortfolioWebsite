@@ -8,10 +8,10 @@ const About = () => {
     <div
       name="about"
       // className="w-full py-24 text-neutral-100 bg-gradient-to-b from-slate-900 to-black"
-      className="w-full py-32 text-neutral-100 flex items-center justify-center bg-gradient-to-b from-slate-900 to-slate-950 from-55%"
+      className="w-full py-32 text-neutral-100 flex items-center justify-center bg-gradient-to-b from-slate-900 to-slate-950 from-55% px-4"
     >
       <div className={`flex flex-col justify-center items-center max-w-[60rem] h-full rounded-2xl ${bg}`}>
-        <div className="flex flex-col justify-center items-center max-w-[60rem] h-full px-16 py-16 rounded-xl m-[.35rem] bg-neutral-950">
+        <div className="flex flex-col justify-center items-center max-w-[60rem] h-full px-4 sm:px-16 py-16 rounded-xl m-[.35rem] bg-neutral-950">
           {/* container */}
           {/* <div className="text-9xl">
           <MdPerson />
@@ -22,7 +22,7 @@ const About = () => {
             </div>
           </div>
           <div className="max-w-[60rem] w-full pt-6">
-            <div className="text-center text-2xl font-semibold">
+            <div className="text-center text-xl sm:text-2xl font-semibold">
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto,
                 quod! Nemo commodi sit quasi, accusamus quod qui in? Accusamus

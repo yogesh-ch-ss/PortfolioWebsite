@@ -21,7 +21,7 @@ const Home = () => {
       />
 
       {/* Dim Overlay */}
-      <div className="absolute inset-0 bg-black opacity-50" />
+      <div className="absolute inset-0 bg-black opacity-55" />
 
       {/* navbar background */}
       <div className="h-12 bg-gradient-b from-neutral-900 to-neutral-800 absolute inset-0" />
