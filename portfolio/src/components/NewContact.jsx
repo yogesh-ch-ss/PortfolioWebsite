@@ -112,7 +112,8 @@ const NewContact = () => {
               rows="10"
               placeholder="Message"
             />
-            <button className="group flex gap-2 border-2 px-6 py-2 mx-auto my-2 items-center rounded-full bg-zinc-700 bg-gradient-to-br hover:from-fuchsia-700 hover:via-teal-700 hover:to-indigo-900 from-10% text-neutral-100 hover:text-neutral-100 border-neutral-300 hover:border-neutral-900">
+
+            <button className="group flex gap-2 px-6 py-2 mx-auto my-2 items-center rounded-full bg-zinc-700 bg-gradient-to-br hover:from-fuchsia-700 hover:via-teal-700 hover:to-indigo-900 from-10% text-neutral-100 hover:text-neutral-100">
               Let's collaborate
               <span className="group-hover:translate-x-1 duration-300">
                 <FaAngleRight />
