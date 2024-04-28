@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
@@ -11,6 +11,18 @@ import NewContact from "./components/NewContact";
 import Projects from "./components/Projects";
 
 function App() {
+  const [lastCommitDate, setLastCommitDate] = useState("");
+
+  useEffect(() => {
+    // Fetch last commit date from the server
+    fetch("/lastCommitDate.txt")
+      .then((response) => response.text())
+      .then((data) => setLastCommitDate(data))
+      .catch((error) =>
+        console.error("Error fetching last commit date:", error)
+      );
+  }, []);
+
   return (
     <div className="bg-neutral-950">
       <Navbar />
@@ -21,7 +33,7 @@ function App() {
       <Projects />
       <Resume />
       <NewContact />
-      <Footer />
+      <Footer lastCommitDate={lastCommitDate} />
     </div>
   );
 }
