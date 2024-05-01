@@ -88,16 +88,16 @@ const Skills = () => {
             <div className="text-lg font-medium text-neutral-400">
               <div className="flex flex-col">
                 <div className="py-1">
-                  <p>Python</p>
+                  <p>Amazon Web Services</p>
                 </div>
                 <div className="py-1">
                   <p>GitHub</p>
                 </div>
                 <div className="py-1">
-                  <p>Amazon Web Services</p>
+                  <p>Postman APIs</p>
                 </div>
                 <div className="py-1">
-                  <p>Postman APIs</p>
+                  <p>Python</p>
                 </div>
               </div>
             </div>

@@ -43,6 +43,11 @@ const ProjectCarousel = (props) => {
                   ? props.activeCard.linkColour
                   : props.passiveCard.linkColour
               }
+              borderBg={
+                props.listOfProjects.indexOf(project) === curr
+                  ? props.activeCard.borderBg
+                  : props.passiveCard.borderBg
+              }
             />
           </span>
         ))}

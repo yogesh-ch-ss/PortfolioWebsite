@@ -13,12 +13,14 @@ const activeCard = {
   bg: "bg-gradient-to-br from-gray-900 to-slate-950",
   pointer: null,
   linkColour: "text-blue-500",
+  borderBg: "bg-gradient-to-br from-fuchsia-800 via-teal-700 to-indigo-900",
 };
 
 const passiveCard = {
   bg: "bg-neutral-900",
   pointer: "pointer-events-none",
   linkColour: "text-neutral-400",
+  borderBg: "bg-neutral-700",
 };
 
 const listOfProjects = [
@@ -48,7 +50,8 @@ const listOfProjects = [
     name: "Vatavaranam ",
     icon: <BsCloudSunFill />,
     about: "Weather Forecast App",
-    description: "Checkout the weather in your area through this clean, minimalist app!",
+    description:
+      "Checkout the weather in your area through this clean, minimalist app!",
     stack: "React Typescript, Tailwind",
     website: "https://vatavaranam.web.app/",
     github: "https://github.com/yogesh-ch-ss/Vatavaranam",
@@ -78,7 +81,8 @@ const listOfProjects = [
     name: "Tweeter",
     icon: <FaTwitter />,
     about: "Clone of Twitter",
-    description: "A clone of twitter login and feeds page (currently known as X).",
+    description:
+      "A clone of twitter login and feeds page (currently known as X).",
     stack: "HTML, CSS, JavaScript",
     // website: "website url",
     github: "https://github.com/yogesh-ch-ss/Tweeter",

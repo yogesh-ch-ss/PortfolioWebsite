@@ -24,7 +24,7 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-neutral-950">
+    <div className="bg-neutral-900">
       <Navbar />
       <Home />
       <About />

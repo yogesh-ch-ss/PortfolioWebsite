@@ -3,6 +3,7 @@ import { MdPerson } from "react-icons/md";
 
 const About = () => {
   const bg = "bg-gradient-to-br from-fuchsia-800 via-teal-700 to-indigo-900";
+  const bg2 = "bg-gradient-to-br from-fuchsia-700 via-teal-700 to-indigo-900";
 
   return (
     <div
@@ -11,14 +12,14 @@ const About = () => {
       className="w-full py-32 text-neutral-100 flex items-center justify-center bg-gradient-to-b from-slate-900 to-slate-950 from-55% px-4"
     >
       <div className={`flex flex-col justify-center items-center max-w-[60rem] h-full rounded-2xl ${bg}`}>
-        <div className="flex flex-col justify-center items-center max-w-[60rem] h-full px-4 sm:px-16 py-16 rounded-xl m-[.35rem] bg-neutral-950">
+        <div className="flex flex-col justify-center items-center max-w-[60rem] h-full px-4 sm:px-16 py-16 rounded-xl m-[.25rem] bg-neutral-950">
           {/* container */}
           {/* <div className="text-9xl">
           <MdPerson />
         </div> */}
           <div className="max-w-[60rem] w-full">
-            <div className="text-center">
-              <h1 className="text-4xl font-bold">About</h1>
+            <div className="text-center flex flex-col items-center justify-center">
+              <h1 className={`text-4xl font-bold ${bg2} text-transparent bg-clip-text`}>About</h1>
             </div>
           </div>
           <div className="max-w-[60rem] w-full pt-6">
