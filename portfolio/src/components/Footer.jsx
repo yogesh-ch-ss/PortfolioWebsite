@@ -8,7 +8,10 @@ const Footer = ({ lastCommitDate }) => {
           Yogesh Chandra Singh Samant
         </div>
         <div className="py-2 w-full text-neutral-500 font-semibold">
-          Personal Portfolio Website
+          <div className="flex justify-between items-center">
+            <div>Personal Portfolio Website</div>
+            <div>Designed with React and Tailwind CSS</div>
+          </div>
         </div>
         {/* <div className="py-2 w-full text-neutral-500 font-semibold">
           Last commit date: {lastCommitDate}
