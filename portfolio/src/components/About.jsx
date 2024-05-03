@@ -9,7 +9,7 @@ const About = () => {
     <div
       name="about"
       // className="w-full py-24 text-neutral-100 bg-gradient-to-b from-slate-900 to-black"
-      className="w-full py-32 text-neutral-100 flex items-center justify-center bg-gradient-to-b from-slate-900 to-slate-950 from-55% px-4"
+      className="w-full py-32 text-neutral-100 flex items-center justify-center bg-gradient-to-b from-[#112033] to-slate-950 from-55% px-4"
     >
       <div className={`flex flex-col justify-center items-center max-w-[60rem] h-full rounded-2xl ${bg}`}>
         <div className="flex flex-col justify-center items-center max-w-[60rem] h-full px-4 sm:px-16 py-16 rounded-xl m-[.25rem] bg-neutral-950">

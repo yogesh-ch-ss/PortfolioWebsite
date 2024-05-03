@@ -2,11 +2,12 @@ import React from "react";
 import { FaLayerGroup, FaAngleRight } from "react-icons/fa6";
 
 const ProjectCard = (props) => {
-
   return (
-    <div className={`flex flex-col items-center justify-center m-4 rounded-[0.9rem] ${props.borderBg}`}>
+    <div
+      className={`flex flex-col items-center justify-center m-4 p-[.25rem] rounded-2xl ${props.borderBg}`}
+    >
       <div
-        className={`flex flex-col items-start justify-center m-[.15rem] rounded-xl px-8 py-8 ${props.bg}`}
+        className={`flex flex-col items-start justify-center w-full h-full rounded-xl px-8 py-8 ${props.bg}`}
       >
         <div className="text-start text-5xl">{props.project.icon}</div>
         <div className="text-start font-bold text-2xl py-2">
