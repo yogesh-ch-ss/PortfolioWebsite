@@ -19,7 +19,7 @@ const About = () => {
         </div> */}
           <div className="max-w-[60rem] w-full">
             <div className="text-center flex flex-col items-center justify-center">
-              <h1 className={`text-4xl font-bold ${bg2} text-transparent bg-clip-text`}>About</h1>
+              <h1 className={`text-4xl font-extrabold ${bg2} text-transparent bg-clip-text`}>About</h1>
             </div>
           </div>
           <div className="max-w-[60rem] w-full pt-6">
