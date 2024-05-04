@@ -12,7 +12,7 @@ const About = () => {
       className="w-full py-32 text-neutral-100 flex items-center justify-center bg-gradient-to-b from-[#112033] to-slate-950 from-55% px-4"
     >
       <div className={`flex flex-col justify-center items-center max-w-[60rem] h-full rounded-2xl ${bg}`}>
-        <div className="flex flex-col justify-center items-center max-w-[60rem] h-full px-4 sm:px-16 py-16 rounded-xl m-[.25rem] bg-neutral-950">
+        <div className="flex flex-col justify-center items-center max-w-[60rem] h-full px-4 sm:px-16 py-16 rounded-xl m-[.25rem] bg-[#111113]">
           {/* container */}
           {/* <div className="text-9xl">
           <MdPerson />

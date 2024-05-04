@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="w-full h-auto bg-neutral-950 text-neutral-100 flex flex-col items-center justify-center py-32 px-4"
+      className="w-full h-auto bg-[#111113] text-neutral-100 flex flex-col items-center justify-center py-32 px-4"
     >
       <div className="w-full h-full flex flex-col max-w-[60rem]">
         <div className="grid-cols-subgrid col-span-3 px-6">

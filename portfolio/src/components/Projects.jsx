@@ -17,7 +17,7 @@ const activeCard = {
 };
 
 const passiveCard = {
-  bg: "bg-neutral-900",
+  bg: "bg-[#1F1F1F]",
   pointer: "pointer-events-none",
   linkColour: "text-neutral-400",
   borderBg: "bg-neutral-700",
@@ -93,7 +93,7 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="w-full h-auto bg-neutral-950 py-32 text-neutral-100 px-4"
+      className="w-full h-auto bg-[#111113] py-32 text-neutral-100 px-4"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div>
