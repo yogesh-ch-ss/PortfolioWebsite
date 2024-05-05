@@ -14,7 +14,7 @@ const ProjectCard = (props) => {
           {props.project.name}
         </div>
         <div className="text-start h-auto text-lg font-bold">
-          {"- "}
+          {""}
           {props.project.about}
         </div>
         <div className="py-2 text-start min-h-[6rem] h-auto text-neutral-300">
