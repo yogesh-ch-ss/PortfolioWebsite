@@ -6,7 +6,7 @@ import aurora from "../assets/aurora.mp4";
 
 const Resume = () => {
   return (
-    <a href="#">
+    <a href="https://drive.google.com/file/d/1KJp5H37U8ruYYubVk0zQEgWrZYDQ_6-h/view?usp=drive_link" target="_blank">
       <div name="resume" className="relative group w-full h-[25rem] px-20">
         {/* Video Background */}
         <video

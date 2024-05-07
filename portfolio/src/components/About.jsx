@@ -33,7 +33,8 @@ const About = () => {
               <p className="">
                 As a versatile full-stack developer proficient in the MERN
                 stack, I specialize in designing and developing web-based
-                applications that prioritize <span className="">Simplicity and Functionality</span>.
+                applications that prioritize{" "}
+                <span className="">Simplicity and Functionality</span>.
               </p>
               <p className="">
                 I am constantly exploring new technologies to deliver innovative
